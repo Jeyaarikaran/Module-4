@@ -35,7 +35,8 @@ cir1.mech()
 ```
 
 ## Output :
-![Uploading image.png…]()
+![Screenshot 2025-04-29 172825](https://github.com/user-attachments/assets/f424705d-8ef1-4f33-972a-5de46280ac8f)
+
 
 ## Result :
 The program successfully calculates and prints the perimeter (circumference) of a circle based on the given radius.
