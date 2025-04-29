@@ -1,19 +1,38 @@
-# Classes and Objects in Python: Calculate the Area of a Circle
+# Dictionary-To Sorting the Keys and Values in Alphabetical Order using the Key in Dictionary.
 
-## 🎯 Aim
-To write a Python program that calculates the **area of a circle** based on the radius provided by the user. This program uses a class named `cse` and a method `mech` to perform the calculation.
+## 🎯 Aim :
+To write a Python program that sorts a dictionary’s keys and values in alphabetical order by the key and displays the sorted pairs.
 
 ## 🧠 Algorithm
-1. **Get user input**: Take the radius of the circle as input from the user.
-2. **Define the class**: Create a class named `cse`.
-3. **Define the method**: Inside the class, define the method `mech` to calculate the area of the circle using the formula:  
-   Area = pi *r^2 
-4. **Execute the program**: Create an object of the class and call the method with the radius value.
+1.Define a dictionary with key-value pairs.
 
-## 🧾 Program
+2.Use the sorted() function on the dictionary’s .items() method to sort the items based on the keys.
 
+3.Loop through the sorted items and print the key-value pairs.
+
+4.End the program.
+
+## 🧾 Program :
+```.py
+list1=[]
+dict1={}
+for i in range(10):
+    a=int(input())
+    list1.append(a)
+for i in list1:
+    if i==2 or i==3 or i==5 or i==7:
+        dict1.update({i:"prime"})
+    elif i%2!=0 and i%3!=0 and i%5!=0 and i%7!=0 and i!=1:
+        dict1.update({i:"prime"})
+    else:
+        dict1.update({i:"not prime"})
+print(dict1)
+```
 Add code here
 
-## Output
+## Output :
+![image](https://github.com/user-attachments/assets/939a4b97-658a-45d7-8697-b8e3e0c912c8)
 
-## Result
+
+## Result :
+The program successfully sorts the dictionary items in ascending order by their keys and prints the key-value pairs in sorted order.
