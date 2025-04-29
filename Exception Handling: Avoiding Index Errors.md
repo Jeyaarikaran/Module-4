@@ -1,18 +1,41 @@
 # Exception Handling in Python: Avoiding Index Errors
 
-## 🎯 Aim
-To write a Python program that handles an **IndexError** when trying to access an element beyond the available range of a list.
+## 🎯 Aim :
+To write a Python program using a class 'cse' and a function 'mech' to find the perimeter (circumference) of a circle.
+## 🧠 Algorithm :
+1.Define a class 'cse'.
 
-## 🧠 Algorithm
-1. Define a list `list1` with some integer elements.
-2. Use a **try-except** block:
-   - In the `try` block, attempt to access an index that is out of range (e.g., `list1[5]`).
-   - In the `except` block, catch the error and print a custom message `"You're out of list range"`.
-3. Print the result based on whether the index access succeeds or fails.
+2.Inside the class, define a method 'mech' that accepts the radius of the circle.
 
-## 🧾 Program
-Add code here
+3.Calculate the perimeter (circumference) using the formula:
 
-## Output
+Perimeter
+=
+2
+×
+𝜋
+×
+   * radius
+   * Perimeter=2×π×radius
+4.Print the result.
 
-## Result
+The program will take the radius as input and display the calculated perimeter.
+## 🧾 Program :
+```.py
+import math
+class cse:
+    def __init__(self,radius):
+        self.radius=radius
+    def mech(self):
+        print(f"Perimeter of circle: {(math.pi*2*self.radius):.2f}")
+        
+radius=int(input())
+cir1=cse(radius)
+cir1.mech()
+```
+
+## Output :
+![Uploading image.png…]()
+
+## Result :
+The program successfully calculates and prints the perimeter (circumference) of a circle based on the given radius.
