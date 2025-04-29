@@ -35,7 +35,8 @@ cir1.mech()
 ```
 
 ## Output :
-![Screenshot 2025-04-29 172825](https://github.com/user-attachments/assets/f424705d-8ef1-4f33-972a-5de46280ac8f)
+![image](https://github.com/user-attachments/assets/adaa57d3-5328-41e7-b4e0-e99b75cac818)
+
 
 
 ## Result :
